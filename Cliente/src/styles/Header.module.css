@@ -1,0 +1,31 @@
+.header {
+    background-color: cornflowerblue;
+    padding: 2rem;
+}
+
+.logo {
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.link {
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.container {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 120rem;
+    width: 95%;
+}
+
+.options {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
