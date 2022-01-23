@@ -1,15 +1,23 @@
 import styles from "../../styles/PostList.module.css"
+import FlechaNext from "../../img/FlechaNext.png"
+import FlechaPrevius from "../../img/FlechaPrevius.png"
 import Post from "./Post";
 const PostList = () => {
     return (
-        <section className={styles.list_container}> 
-            <div className={styles.container}>
-                <Post/>
-                <Post/>
-                <Post/>
-                <Post/>
-            </div>
-        </section>
+        <div className={styles.container}>
+            <button className={styles.flecha}>
+                <img src={FlechaPrevius} className={styles.previus}></img>
+            </button> 
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <button className={styles.flecha}>
+                <img src={FlechaNext} className={styles.next}></img>
+            </button>
+        </div>
      );
 }
  
